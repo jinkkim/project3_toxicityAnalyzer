@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="{{ url_for('static', filename='images/logo4.png') }}"/>
+        <title>Watch Your Language</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='fonts/oswald/stylesheet.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='font-awesome/css/font-awesome.min.css') }}"  type="text/css" />
+        <!-- Custom styles for this template -->
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+		<link href="{{ url_for('static', filename='css/responsive.css') }}" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+		    <div class="header-top">
+		    </div>
+		</div>
+		<nav class="nav navbar navbar-default">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-xs-12 visible-xs">
+		                <div class="logo-mobile">
+		                    <a href="/"><img src="{{ url_for('static', filename='images/logo3.png') }}" width="100" height="100"></a>
+		                </div>
+		            </div>
+		            <div class="col-md-11 col-xs-12">
+		                <div class="navbar-header">
+		                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>                        
+		                    </button>
+		                </div>
+		                <div class="collapse navbar-collapse text-center" id="myNavbar">
+							<!--	<div class="collapse navbar-collapse" id="navbarNav">
+										<ul class="navbar-nav ml-auto">
+										  <li class="nav-item dropdown">-->
+		                    <ul class="nav navbar-nav margin-l">
+		                        <li><a href="/visualize">about data</a></li>
+		                    </ul>
+		                    <div class="logo hidden-xs">
+		                        <a href="/"><img src="{{ url_for('static', filename='images/logo3.png') }}" width="100" height="100"></a>
+		                    </div>
+		                    <ul class="nav navbar-nav navbar-right">
+		                        <li><a href="/analyze">machine learning</a></li>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</nav>
+	
+		<br><br><br>
+		
+		<div class="container d-flex justify-content-center p-5 m-4">
+
+			<h7>Online conversations are very open and freeing to everyone because there is an aspect of anonymity and some people exhibit lack of empathy. Because of that reasons, some people often experience rude or disrespectful comments and left feeling unpleasant. Negative comments often result in the interruptions of discussions. We want to recognize the toxicity comments in advance and discourage people from posting them with the help of machine learning. We will be using a dataset from youtube, twitter and reddit comments labeled for identity mentions. The data contains different types of toxicity like threats, obscenity, insults, and identity-based hate. Also, we will analyze and visualize the data with various aspects and want people to be more mindful in our conversation.</h7>
+			<br><br><br>
+			  <br><br><br>		
+        
+	<!--<div class="container d-flex justify-content-center p-5 m-4">
+		<h1>Here comes the graph!!!</h1>-->
+		<!--<iframe src = "https://public.tableau.com/profile/helen6986#!/vizhome/Sentiment_Analyzer/Identity?publish=yes" width = "1000" height = "auto">
+		
+		 </iframe>-->
+
+		<!-- <div class='tableauPlaceholder' id='viz1558660205662' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;Sentiment_Analyzer&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Sentiment_Analyzer&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;Sentiment_Analyzer&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1558660205662');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+	</div>-->
+
+	<div class="container d-flex justify-content-center p-5 m-4">
+			<!--<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 3027px;'><object class='tableauViz' width='1100' height='3027' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;k9datascience' /><param name='name' value='nlp_visualizer&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>-->
+			<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 4427px;'><object class='tableauViz' width='1100' height='4427' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;k9datascience' /><param name='name' value='nlp_visualizer&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+			<!--<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1169px; height: 2681px;'><object class='tableauViz' width='1169' height='2681' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;k9datascience' /><param name='name' value='citibike2018&#47;Dashboard5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>-->
+
+
+	</div>
+<!--<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script>
+<div class='tableauPlaceholder' style='width: 900px; height: 500px;'><object class='tableauViz' width='1368' height='748' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;k9datascience' /><param name='name' value='citibike2018&#47;popularstartstation' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+
+<div class="container d-flex justify-content-center p-5 m-4">
+	<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1000px; height: 727px;'><object class='tableauViz' width='1000' height='727' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;k9datascience' /><param name='name' value='citibike2018&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+</div>
+
+<br><br><br>
+
+<div class="container d-flex justify-content-center p-5 m-4">
+	<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1000px; height: 727px;'><object class='tableauViz' width='1000' height='727' style='display:none;'><param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;k9datascience' /><param name='name' value='citibike2018&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object>
+	</div>-->
+
+</div>
+     <br><br><br><br><br><br><br><br><br><br>
+    <div class="row footer" width-50> 
+	    <div class="col-md-12" align="center">
+	            © 2019 All right reserved. "Watch Your Language."
+		</div>
+		
+	</div>
+		
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+
+	</body>
+</HTML>

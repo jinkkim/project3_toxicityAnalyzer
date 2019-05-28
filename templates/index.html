@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="{{ url_for('static', filename='images/logo4.png') }}"/>
+        <title>Watch Your Language</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='fonts/oswald/stylesheet.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='font-awesome/css/font-awesome.min.css') }}"  type="text/css" />
+        <!-- Custom styles for this template -->
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+		<link href="{{ url_for('static', filename='css/responsive.css') }}" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+		    <div class="header-top">
+		    </div>
+		</div>
+		<nav class="navbar navbar-default">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-xs-12 visible-xs">
+		                <div class="logo-mobile">
+		                    <a href="/"><img src="{{ url_for('static', filename='images/logo3.png') }}" width="100" height="100"></a>
+		                </div>
+		            </div>
+		            <div class="col-md-11 col-xs-12">
+		                <div class="navbar-header">
+		                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>                        
+		                    </button>
+		                </div>
+		                <div class="collapse navbar-collapse text-center" id="myNavbar">
+		                    <ul class="nav navbar-nav margin-l">
+		                        <li><a href="/visualize">about data</a></li>
+		                    </ul>
+		                    <div class="logo hidden-xs">
+		                        <a href="/"><img src="{{ url_for('static', filename='images/logo3.png') }}" width="100" height="100"></a>
+		                    </div>
+		                    <ul class="nav navbar-nav navbar-right">
+		                        <li><a href="/analyze">machine learning</a></li>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</nav>
+	
+        <br><br><br>
+        
+	<div class="container d-flex justify-content-center p-5 m-4">
+
+      	<h7>Online conversations are very open and freeing to everyone because there is an aspect of anonymity and some people exhibit lack of empathy. Because of that reasons, some people often experience rude or disrespectful comments and left feeling unpleasant. Negative comments often result in the interruptions of discussions. We want to recognize the toxicity comments in advance and discourage people from posting them with the help of machine learning. We will be using a dataset from youtube, twitter and reddit comments labeled for identity mentions. The data contains different types of toxicity like threats, obscenity, insults, and identity-based hate. Also, we will analyze and visualize the data with various aspects and want people to be more mindful in our conversation.</h7>
+		<br><br><br>
+  
+    	<div style="display: flex; justify-content: center;">
+      		<img src="{{ url_for('static', filename='images/banner2.png') }}" alt="online conversation" height="300">
+		</div>
+		<br><br><br><br>
+	</div>
+     
+    <div class="row footer"> 
+	    <div class="col-md-12" align="center">
+	            © 2019 All right reserved. "Watch Your Language."
+		</div>
+		
+	</div>
+		
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+
+	</body>
+</HTML>
