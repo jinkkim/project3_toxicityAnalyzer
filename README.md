@@ -8,13 +8,7 @@ Online conversations are very open and freeing to everyone because there is an a
 * the dataset contains text that may be considered profane, vulgar, or offensive.
 * train data: 1.8million x 45, test data: 97.3k x 2
 
-<<<<<<< HEAD
-* https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data 
+* https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data
 * https://dlab.berkeley.edu/landing-page/online-hate-index-scalable-detection-online-hate-speech
-<br>
-=======
-https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data
-https://dlab.berkeley.edu/landing-page/online-hate-index-scalable-detection-online-hate-speech
 
-![Toxicity Analyzer](toxicity.GIF)
->>>>>>> bcaa638fc1bf4db8bb909054244f4ae1cf082b83
+
